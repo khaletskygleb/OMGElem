@@ -1,0 +1,704 @@
+fileFormatVersion: 2
+guid: ccfe4f7ca21c56a45a6f23b38040ffda
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8974197336449228407
+    second: FireIdleAtlas (1)_0
+  - first:
+      213: -6394533272795753602
+    second: FireIdleAtlas (1)_1
+  - first:
+      213: -3307585327407267586
+    second: FireIdleAtlas (1)_2
+  - first:
+      213: 8868199366016925765
+    second: FireIdleAtlas (1)_3
+  - first:
+      213: 2366714467996213201
+    second: FireIdleAtlas (1)_4
+  - first:
+      213: -3407706047588921246
+    second: FireIdleAtlas (1)_5
+  - first:
+      213: 2408184401625856386
+    second: FireIdleAtlas (1)_6
+  - first:
+      213: 6567814826406166826
+    second: FireIdleAtlas (1)_7
+  - first:
+      213: 2136140530950469100
+    second: FireIdleAtlas (1)_8
+  - first:
+      213: 1830136128350385372
+    second: FireIdleAtlas (1)_9
+  - first:
+      213: -2958505022561703543
+    second: FireIdleAtlas (1)_10
+  - first:
+      213: -3639192702861181603
+    second: FireIdleAtlas (1)_11
+  - first:
+      213: -8303246702479972312
+    second: FireIdleAtlas (1)_12
+  - first:
+      213: 5391745904728473539
+    second: FireIdleAtlas (1)_13
+  - first:
+      213: 6712069108757567356
+    second: FireIdleAtlas (1)_14
+  - first:
+      213: -8133650180701944305
+    second: FireIdleAtlas (1)_15
+  - first:
+      213: 2050567318290437600
+    second: FireIdleAtlas (1)_16
+  - first:
+      213: -6506982283377387960
+    second: FireIdleAtlas (1)_17
+  - first:
+      213: -1604869372147074862
+    second: FireIdleAtlas (1)_18
+  - first:
+      213: -1429712827390825530
+    second: FireIdleAtlas (1)_19
+  - first:
+      213: -1017007557153897222
+    second: FireIdleAtlas (1)_20
+  - first:
+      213: 4647961563491001183
+    second: FireIdleAtlas (1)_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FireIdleAtlas (1)_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1223
+        width: 223
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981efa0e11f357380800000000000000
+      internalID: -8974197336449228407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireIdleAtlas (1)_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1223
+        width: 223
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73d79a3edd0247a0800000000000000
+      internalID: -6394533272795753602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireIdleAtlas (1)_2
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1223
+        width: 223
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef088974ba81912d0800000000000000
+      internalID: -3307585327407267586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireIdleAtlas (1)_3
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1223
+        width: 223
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54088c0765c221b70800000000000000
+      internalID: 8868199366016925765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireIdleAtlas (1)_4
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1223
+        width: 223
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df11bde44248d020800000000000000
+      internalID: 2366714467996213201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireIdleAtlas (1)_5
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 923
+        width: 223
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260138e876565b0d0800000000000000
+      internalID: -3407706047588921246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireIdleAtlas (1)_6
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 923
+        width: 223
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 289bb8444f69b6120800000000000000
+      internalID: 2408184401625856386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireIdleAtlas (1)_7
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 923
+        width: 223
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21cb7e69c0952b50800000000000000
+      internalID: 6567814826406166826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireIdleAtlas (1)_8
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 923
+        width: 223
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5fd91ce7815ad10800000000000000
+      internalID: 2136140530950469100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireIdleAtlas (1)_9
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 923
+        width: 223
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4feecbc13f56910800000000000000
+      internalID: 1830136128350385372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireIdleAtlas (1)_10
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 623
+        width: 223
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98920085b5741f6d0800000000000000
+      internalID: -2958505022561703543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireIdleAtlas (1)_11
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 623
+        width: 223
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5df3cc948dfe7dc0800000000000000
+      internalID: -3639192702861181603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireIdleAtlas (1)_12
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 623
+        width: 223
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8286f38dd11f4cc80800000000000000
+      internalID: -8303246702479972312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireIdleAtlas (1)_13
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 623
+        width: 223
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cff18a655453da40800000000000000
+      internalID: 5391745904728473539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireIdleAtlas (1)_14
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 623
+        width: 223
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c771e57da4f062d50800000000000000
+      internalID: 6712069108757567356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireIdleAtlas (1)_15
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 323
+        width: 223
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0608fb21487f1f80800000000000000
+      internalID: -8133650180701944305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireIdleAtlas (1)_16
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 323
+        width: 223
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e51ab29c14157c10800000000000000
+      internalID: 2050567318290437600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireIdleAtlas (1)_17
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 323
+        width: 223
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846d787b61e82b5a0800000000000000
+      internalID: -6506982283377387960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireIdleAtlas (1)_18
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 323
+        width: 223
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8f44a1fcb5ab9e0800000000000000
+      internalID: -1604869372147074862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireIdleAtlas (1)_19
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 323
+        width: 223
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cbec8822c3a82ce0800000000000000
+      internalID: -1429712827390825530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireIdleAtlas (1)_20
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 23
+        width: 223
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af444fdd30dd2e1f0800000000000000
+      internalID: -1017007557153897222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireIdleAtlas (1)_21
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 23
+        width: 223
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53ec818a60e08040800000000000000
+      internalID: 4647961563491001183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f8a96bf443d1a9c469c10000d896a638
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      FireIdleAtlas (1)_0: -8974197336449228407
+      FireIdleAtlas (1)_1: -6394533272795753602
+      FireIdleAtlas (1)_10: -2958505022561703543
+      FireIdleAtlas (1)_11: -3639192702861181603
+      FireIdleAtlas (1)_12: -8303246702479972312
+      FireIdleAtlas (1)_13: 5391745904728473539
+      FireIdleAtlas (1)_14: 6712069108757567356
+      FireIdleAtlas (1)_15: -8133650180701944305
+      FireIdleAtlas (1)_16: 2050567318290437600
+      FireIdleAtlas (1)_17: -6506982283377387960
+      FireIdleAtlas (1)_18: -1604869372147074862
+      FireIdleAtlas (1)_19: -1429712827390825530
+      FireIdleAtlas (1)_2: -3307585327407267586
+      FireIdleAtlas (1)_20: -1017007557153897222
+      FireIdleAtlas (1)_21: 4647961563491001183
+      FireIdleAtlas (1)_3: 8868199366016925765
+      FireIdleAtlas (1)_4: 2366714467996213201
+      FireIdleAtlas (1)_5: -3407706047588921246
+      FireIdleAtlas (1)_6: 2408184401625856386
+      FireIdleAtlas (1)_7: 6567814826406166826
+      FireIdleAtlas (1)_8: 2136140530950469100
+      FireIdleAtlas (1)_9: 1830136128350385372
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

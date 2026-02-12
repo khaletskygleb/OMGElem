@@ -1,0 +1,574 @@
+fileFormatVersion: 2
+guid: 5a7e0498084207e45a9df2d8303d0147
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1144539944934011054
+    second: WaterIdleAtlas_0
+  - first:
+      213: -1334436920459288232
+    second: WaterIdleAtlas_1
+  - first:
+      213: 695811055318552011
+    second: WaterIdleAtlas_2
+  - first:
+      213: 2057091256997324686
+    second: WaterIdleAtlas_3
+  - first:
+      213: -2297082646587683228
+    second: WaterIdleAtlas_4
+  - first:
+      213: -1754823103602611858
+    second: WaterIdleAtlas_5
+  - first:
+      213: 2397363435734903110
+    second: WaterIdleAtlas_6
+  - first:
+      213: 9064518080954431774
+    second: WaterIdleAtlas_7
+  - first:
+      213: 1207857904951737991
+    second: WaterIdleAtlas_8
+  - first:
+      213: -969001114268679622
+    second: WaterIdleAtlas_9
+  - first:
+      213: 6129835298680423252
+    second: WaterIdleAtlas_10
+  - first:
+      213: -1098038284931694453
+    second: WaterIdleAtlas_11
+  - first:
+      213: -4725354727213939198
+    second: WaterIdleAtlas_12
+  - first:
+      213: -4337074136658224715
+    second: WaterIdleAtlas_13
+  - first:
+      213: 8819526966548358360
+    second: WaterIdleAtlas_14
+  - first:
+      213: -6596569804884200639
+    second: WaterIdleAtlas_15
+  - first:
+      213: -7410426009133408288
+    second: WaterIdleAtlas_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WaterIdleAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 922
+        width: 223
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea07901140932ef00800000000000000
+      internalID: 1144539944934011054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterIdleAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 922
+        width: 223
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851abd4e0b02b7de0800000000000000
+      internalID: -1334436920459288232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterIdleAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 922
+        width: 223
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd4d0fd77408a900800000000000000
+      internalID: 695811055318552011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterIdleAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 922
+        width: 223
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8723eb69914c8c10800000000000000
+      internalID: 2057091256997324686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterIdleAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 922
+        width: 223
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e4d6ed08f1f10e0800000000000000
+      internalID: -2297082646587683228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterIdleAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 622
+        width: 223
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e692e1a4fad95a7e0800000000000000
+      internalID: -1754823103602611858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterIdleAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 622
+        width: 223
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6492d70d755254120800000000000000
+      internalID: 2397363435734903110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterIdleAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 622
+        width: 223
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19f4633b23abcd70800000000000000
+      internalID: 9064518080954431774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterIdleAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 622
+        width: 223
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ebbc37d5c23c010800000000000000
+      internalID: 1207857904951737991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterIdleAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 622
+        width: 223
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32ce0dde9a6d82f0800000000000000
+      internalID: -969001114268679622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterIdleAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 322
+        width: 223
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4534f751abc811550800000000000000
+      internalID: 6129835298680423252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterIdleAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 322
+        width: 223
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b800edc5ffbf2c0f0800000000000000
+      internalID: -1098038284931694453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterIdleAtlas_12
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 322
+        width: 223
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20643be59ea2c6eb0800000000000000
+      internalID: -4725354727213939198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterIdleAtlas_13
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 322
+        width: 223
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9d3ff2d0e9fc3c0800000000000000
+      internalID: -4337074136658224715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterIdleAtlas_14
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 322
+        width: 223
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4e7185c01456a70800000000000000
+      internalID: 8819526966548358360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterIdleAtlas_15
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 22
+        width: 223
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1433fcb66b64474a0800000000000000
+      internalID: -6596569804884200639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterIdleAtlas_16
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 22
+        width: 223
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef994b8ec0e82990800000000000000
+      internalID: -7410426009133408288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 35e1494732237894b95d9b966568029b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      WaterIdleAtlas_0: 1144539944934011054
+      WaterIdleAtlas_1: -1334436920459288232
+      WaterIdleAtlas_10: 6129835298680423252
+      WaterIdleAtlas_11: -1098038284931694453
+      WaterIdleAtlas_12: -4725354727213939198
+      WaterIdleAtlas_13: -4337074136658224715
+      WaterIdleAtlas_14: 8819526966548358360
+      WaterIdleAtlas_15: -6596569804884200639
+      WaterIdleAtlas_16: -7410426009133408288
+      WaterIdleAtlas_2: 695811055318552011
+      WaterIdleAtlas_3: 2057091256997324686
+      WaterIdleAtlas_4: -2297082646587683228
+      WaterIdleAtlas_5: -1754823103602611858
+      WaterIdleAtlas_6: 2397363435734903110
+      WaterIdleAtlas_7: 9064518080954431774
+      WaterIdleAtlas_8: 1207857904951737991
+      WaterIdleAtlas_9: -969001114268679622
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

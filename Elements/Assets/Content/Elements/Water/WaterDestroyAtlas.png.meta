@@ -1,0 +1,683 @@
+fileFormatVersion: 2
+guid: 3b92cd2d58a374b448e6ecb5837c5899
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1771972382107013942
+    second: WaterDestroyAtlas_0
+  - first:
+      213: 4252032584255721618
+    second: WaterDestroyAtlas_1
+  - first:
+      213: -6034394196775732032
+    second: WaterDestroyAtlas_2
+  - first:
+      213: 2483030669456992067
+    second: WaterDestroyAtlas_3
+  - first:
+      213: 7721172449642548947
+    second: WaterDestroyAtlas_4
+  - first:
+      213: -8150665011647221794
+    second: WaterDestroyAtlas_5
+  - first:
+      213: 943682912468467808
+    second: WaterDestroyAtlas_6
+  - first:
+      213: 566778586700719265
+    second: WaterDestroyAtlas_7
+  - first:
+      213: -2363492621213519703
+    second: WaterDestroyAtlas_8
+  - first:
+      213: 27663884421934807
+    second: WaterDestroyAtlas_9
+  - first:
+      213: 5852795152446334600
+    second: WaterDestroyAtlas_10
+  - first:
+      213: 7793937678364807440
+    second: WaterDestroyAtlas_11
+  - first:
+      213: 2006021248598604281
+    second: WaterDestroyAtlas_12
+  - first:
+      213: 4095633051986925846
+    second: WaterDestroyAtlas_13
+  - first:
+      213: 4523196882597579281
+    second: WaterDestroyAtlas_14
+  - first:
+      213: 6881685359315513789
+    second: WaterDestroyAtlas_15
+  - first:
+      213: -987379207507163626
+    second: WaterDestroyAtlas_16
+  - first:
+      213: 5159179286302574412
+    second: WaterDestroyAtlas_17
+  - first:
+      213: 7716750541900424026
+    second: WaterDestroyAtlas_18
+  - first:
+      213: 2753943986040109030
+    second: WaterDestroyAtlas_19
+  - first:
+      213: -5467719725759967937
+    second: WaterDestroyAtlas_20
+  - first:
+      213: -4407013318798760668
+    second: WaterDestroyAtlas_21
+  - first:
+      213: -3229252214571608104
+    second: WaterDestroyAtlas_22
+  - first:
+      213: -7430501150329719155
+    second: WaterDestroyAtlas_23
+  - first:
+      213: 6897384921141238273
+    second: WaterDestroyAtlas_24
+  - first:
+      213: -6162758512673953310
+    second: WaterDestroyAtlas_25
+  - first:
+      213: 7668347328965071398
+    second: WaterDestroyAtlas_26
+  - first:
+      213: 577577232979946847
+    second: WaterDestroyAtlas_27
+  - first:
+      213: 4631041921253120149
+    second: WaterDestroyAtlas_28
+  - first:
+      213: 1101020665983885853
+    second: WaterDestroyAtlas_29
+  - first:
+      213: 3391443749121435946
+    second: WaterDestroyAtlas_30
+  - first:
+      213: -7880553218233446780
+    second: WaterDestroyAtlas_31
+  - first:
+      213: -7499691010049746785
+    second: WaterDestroyAtlas_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WaterDestroyAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1321
+        width: 225
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6339a434e7f479810800000000000000
+      internalID: 1771972382107013942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterDestroyAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1321
+        width: 223
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290d2fd6b11420b30800000000000000
+      internalID: 4252032584255721618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterDestroyAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1321
+        width: 224
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ccf08a1376814ca0800000000000000
+      internalID: -6034394196775732032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterDestroyAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 1321
+        width: 249
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347626bfc3f757220800000000000000
+      internalID: 2483030669456992067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterDestroyAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 1321
+        width: 249
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de0a763f6d172b60800000000000000
+      internalID: 7721172449642548947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterDestroyAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1021
+        width: 249
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edfef812b5503ee80800000000000000
+      internalID: -8150665011647221794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterDestroyAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1021
+        width: 247
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0600a4aeb92a81d00800000000000000
+      internalID: 943682912468467808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterDestroyAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1021
+        width: 248
+        height: 242
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a428962f1a9dd700800000000000000
+      internalID: 566778586700719265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterDestroyAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 1021
+        width: 249
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0bf4bbbff233fd0800000000000000
+      internalID: -2363492621213519703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterDestroyAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1047
+        width: 199
+        height: 190
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dea3140828426000800000000000000
+      internalID: 27663884421934807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterDestroyAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 633
+        width: 236
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88621b48e2e493150800000000000000
+      internalID: 5852795152446334600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterDestroyAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 499
+        width: 502
+        height: 502
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01197704601a92c60800000000000000
+      internalID: 7793937678364807440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterDestroyAtlas_13
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 581
+        width: 357
+        height: 344
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9fa9e72b1d6db10800000000000000
+      internalID: 2006021248598604281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterDestroyAtlas_14
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 558
+        width: 411
+        height: 392
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619970aaf8c96d830800000000000000
+      internalID: 4095633051986925846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterDestroyAtlas_15
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 59
+        width: 379
+        height: 394
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a026c899f95ce30800000000000000
+      internalID: 4523196882597579281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterDestroyAtlas_16
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 59
+        width: 403
+        height: 394
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db1f102af58a08f50800000000000000
+      internalID: 6881685359315513789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterDestroyAtlas_17
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 59
+        width: 390
+        height: 394
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616cde597df1c42f0800000000000000
+      internalID: -987379207507163626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterDestroyAtlas_18
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 59
+        width: 402
+        height: 394
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c474e94f936199740800000000000000
+      internalID: 5159179286302574412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterDestroyAtlas_12
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 499
+        width: 502
+        height: 502
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62d48169e31b5b4fbd5d0070d737ef0
+      internalID: 2143292013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dd6b41b103fb05049ac9e42939bff06e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      WaterDestroyAtlas_0: 1771972382107013942
+      WaterDestroyAtlas_1: 4252032584255721618
+      WaterDestroyAtlas_10: 5852795152446334600
+      WaterDestroyAtlas_11: 7793937678364807440
+      WaterDestroyAtlas_12: 2143292013
+      WaterDestroyAtlas_13: 2006021248598604281
+      WaterDestroyAtlas_14: 4095633051986925846
+      WaterDestroyAtlas_15: 4523196882597579281
+      WaterDestroyAtlas_16: 6881685359315513789
+      WaterDestroyAtlas_17: -987379207507163626
+      WaterDestroyAtlas_18: 5159179286302574412
+      WaterDestroyAtlas_19: 2753943986040109030
+      WaterDestroyAtlas_2: -6034394196775732032
+      WaterDestroyAtlas_20: -5467719725759967937
+      WaterDestroyAtlas_21: -4407013318798760668
+      WaterDestroyAtlas_22: -3229252214571608104
+      WaterDestroyAtlas_23: -7430501150329719155
+      WaterDestroyAtlas_24: 6897384921141238273
+      WaterDestroyAtlas_25: -6162758512673953310
+      WaterDestroyAtlas_26: 7668347328965071398
+      WaterDestroyAtlas_27: 577577232979946847
+      WaterDestroyAtlas_28: 4631041921253120149
+      WaterDestroyAtlas_29: 1101020665983885853
+      WaterDestroyAtlas_3: 2483030669456992067
+      WaterDestroyAtlas_30: 3391443749121435946
+      WaterDestroyAtlas_31: -7880553218233446780
+      WaterDestroyAtlas_32: -7499691010049746785
+      WaterDestroyAtlas_34: 782200349
+      WaterDestroyAtlas_4: 7721172449642548947
+      WaterDestroyAtlas_5: -8150665011647221794
+      WaterDestroyAtlas_6: 943682912468467808
+      WaterDestroyAtlas_7: 566778586700719265
+      WaterDestroyAtlas_8: -2363492621213519703
+      WaterDestroyAtlas_9: 27663884421934807
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

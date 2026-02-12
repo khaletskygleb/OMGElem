@@ -16,34 +16,31 @@ namespace ElementGame.Core
 
         public IEnumerator RemoveWithAnimation(Board board, List<Cell> cells)
         {
-            bool done = false;
-            var tracker = new AnimationTracker();
-            tracker.Setup(() => done = true);
+            int remaining = 0;
 
             foreach (var cell in cells)
             {
                 Element element = cell.Element;
+                if (element == null) continue;
+
                 ElementView view = element.View;
 
-                tracker.Register();
+                element.View = null;
+                board.ClearCell(cell.Position);
+
+                remaining++;
 
                 view.PlayDestroy(() =>
                 {
-                    ReturnImmediate(view);
-                    tracker.Complete();
+                    _pool.Return(view);
+                    remaining--;
                 });
             }
 
-            yield return new WaitUntil(() => done);
-
-            foreach (var cell in cells)
-            {
-                if (cell.Element != null)
-                    cell.Element.View = null;
-
-                board.ClearCell(cell.Position);
-            }
+            while (remaining > 0)
+                yield return null;
         }
+
 
         public void ReturnImmediate(APoolableObject poolableObject)
         {

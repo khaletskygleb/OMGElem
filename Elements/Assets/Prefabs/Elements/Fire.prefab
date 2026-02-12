@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 147013506413244865}
   - component: {fileID: 8502296199204763349}
   - component: {fileID: 6067603639975859198}
+  - component: {fileID: 554507949676231551}
   - component: {fileID: 5222710505210480511}
   - component: {fileID: 6835541594081722407}
   m_Layer: 0
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 424563147865723424}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.58, y: -7.89, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -82,7 +83,7 @@ SpriteRenderer:
   m_SortingLayerID: 2134654247
   m_SortingLayer: 2
   m_SortingOrder: 12
-  m_Sprite: {fileID: 8328464969787361017, guid: 7d1d94caf67d70b44aab326601a4ed9f, type: 3}
+  m_Sprite: {fileID: -8974197336449228407, guid: ccfe4f7ca21c56a45a6f23b38040ffda, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -105,6 +106,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 702ed3f17c1c3ed4a9b74b9ba627f292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ElementView
+  _animMoveSpeed: 0.15
+  _animator: {fileID: 554507949676231551}
+--- !u!95 &554507949676231551
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424563147865723424}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 32ab996d4191c1649abcc905bf300cfe, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &5222710505210480511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,7 +180,7 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 1.27}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 2.23, y: 2.54}
     newSize: {x: 2.23, y: 2.54}
     adaptiveTilingThreshold: 0.5

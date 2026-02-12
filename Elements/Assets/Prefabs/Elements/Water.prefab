@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 147013506413244865}
   - component: {fileID: 8502296199204763349}
-  - component: {fileID: 5222710505210480511}
   - component: {fileID: 671411089195848695}
+  - component: {fileID: 2442512829526354311}
+  - component: {fileID: 5222710505210480511}
   - component: {fileID: 2577616737817428957}
   m_Layer: 0
   m_Name: Water
@@ -93,6 +94,42 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!114 &671411089195848695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424563147865723424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 702ed3f17c1c3ed4a9b74b9ba627f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ElementView
+  _animMoveSpeed: 0.15
+  _animator: {fileID: 2442512829526354311}
+--- !u!95 &2442512829526354311
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424563147865723424}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5fa3600ff9e848f47a15d6385733fe15, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &5222710505210480511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106,18 +143,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DynamicIsoSorting
   _sprite: {fileID: 8502296199204763349}
---- !u!114 &671411089195848695
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 424563147865723424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 702ed3f17c1c3ed4a9b74b9ba627f292, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ElementView
 --- !u!61 &2577616737817428957
 BoxCollider2D:
   m_ObjectHideFlags: 0

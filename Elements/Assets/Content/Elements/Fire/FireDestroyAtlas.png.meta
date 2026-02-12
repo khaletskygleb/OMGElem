@@ -1,0 +1,635 @@
+fileFormatVersion: 2
+guid: 4efdb5840de0edc45b0bacaa9fd514a8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4796864422394679484
+    second: FireDestroyAtlas_0
+  - first:
+      213: 2284305101680150423
+    second: FireDestroyAtlas_1
+  - first:
+      213: -7124070709498767212
+    second: FireDestroyAtlas_2
+  - first:
+      213: 7222978196139536869
+    second: FireDestroyAtlas_3
+  - first:
+      213: 2803809200018720137
+    second: FireDestroyAtlas_4
+  - first:
+      213: -3227583918757256772
+    second: FireDestroyAtlas_5
+  - first:
+      213: 373757374236331538
+    second: FireDestroyAtlas_6
+  - first:
+      213: 4374391174018536217
+    second: FireDestroyAtlas_7
+  - first:
+      213: 6912791108695380353
+    second: FireDestroyAtlas_8
+  - first:
+      213: -4063207477048418263
+    second: FireDestroyAtlas_9
+  - first:
+      213: -8396122189058957348
+    second: FireDestroyAtlas_10
+  - first:
+      213: -8256572990307942422
+    second: FireDestroyAtlas_11
+  - first:
+      213: 3924084965722310371
+    second: FireDestroyAtlas_12
+  - first:
+      213: 1429839382016655961
+    second: FireDestroyAtlas_13
+  - first:
+      213: -1042508074478965381
+    second: FireDestroyAtlas_14
+  - first:
+      213: -1824556067409366910
+    second: FireDestroyAtlas_15
+  - first:
+      213: 348113202637959690
+    second: FireDestroyAtlas_16
+  - first:
+      213: -6231817988725311179
+    second: FireDestroyAtlas_17
+  - first:
+      213: 1255394547131404822
+    second: FireDestroyAtlas_18
+  - first:
+      213: 6073895542517362447
+    second: FireDestroyAtlas_19
+  - first:
+      213: -4661212418704542754
+    second: FireDestroyAtlas_20
+  - first:
+      213: 2862106068189225976
+    second: FireDestroyAtlas_21
+  - first:
+      213: 8478632497167242997
+    second: FireDestroyAtlas_22
+  - first:
+      213: -371308358464347261
+    second: FireDestroyAtlas_23
+  - first:
+      213: -6165720333099721893
+    second: FireDestroyAtlas_24
+  - first:
+      213: 5042705323513572673
+    second: FireDestroyAtlas_25
+  - first:
+      213: 6966414379047766233
+    second: FireDestroyAtlas_26
+  - first:
+      213: -4469401592131937145
+    second: FireDestroyAtlas_27
+  - first:
+      213: 6983181423021231083
+    second: FireDestroyAtlas_28
+  - first:
+      213: 494356399196193689
+    second: FireDestroyAtlas_29
+  - first:
+      213: -1258491833516080552
+    second: FireDestroyAtlas_30
+  - first:
+      213: 7147260662936415375
+    second: FireDestroyAtlas_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FireDestroyAtlas_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1643
+        width: 225
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fa473093d1e6db0800000000000000
+      internalID: -4796864422394679484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireDestroyAtlas_1
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1641
+        width: 248
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7970240236b73bf10800000000000000
+      internalID: 2284305101680150423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireDestroyAtlas_2
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1641
+        width: 249
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4989f854f67322d90800000000000000
+      internalID: -7124070709498767212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireDestroyAtlas_3
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1641
+        width: 249
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1f941866c2d3460800000000000000
+      internalID: 7222978196139536869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireDestroyAtlas_4
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1641
+        width: 250
+        height: 235
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9858619bc9129e620800000000000000
+      internalID: 2803809200018720137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireDestroyAtlas_5
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1300
+        width: 250
+        height: 236
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1e5bfb6815533d0800000000000000
+      internalID: -3227583918757256772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireDestroyAtlas_6
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1313
+        width: 222
+        height: 211
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e0a830a5adf2500800000000000000
+      internalID: 373757374236331538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireDestroyAtlas_7
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1326
+        width: 196
+        height: 185
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9139af3a895f4bc30800000000000000
+      internalID: 4374391174018536217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireDestroyAtlas_8
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 1213
+        width: 235
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181544843ea2fef50800000000000000
+      internalID: 6912791108695380353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireDestroyAtlas_9
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 1080
+        width: 501
+        height: 501
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92061d1d3569c97c0800000000000000
+      internalID: -4063207477048418263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireDestroyAtlas_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 542
+        width: 500
+        height: 499
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf9d568a5bfa7b80800000000000000
+      internalID: -8396122189058957348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireDestroyAtlas_11
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 598
+        width: 412
+        height: 392
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef3c9a4c92ca6d80800000000000000
+      internalID: -8256572990307942422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireDestroyAtlas_12
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 598
+        width: 412
+        height: 392
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e644525c76257630800000000000000
+      internalID: 3924084965722310371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireDestroyAtlas_13
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 598
+        width: 412
+        height: 392
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95287f2a75fc7d310800000000000000
+      internalID: 1429839382016655961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireDestroyAtlas_14
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 598
+        width: 412
+        height: 392
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d64310e644881f0800000000000000
+      internalID: -1042508074478965381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireDestroyAtlas_15
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 61
+        width: 412
+        height: 392
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280f7417cefdda6e0800000000000000
+      internalID: -1824556067409366910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireDestroyAtlas_16
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 61
+        width: 412
+        height: 392
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02fbd80d1fb4d400800000000000000
+      internalID: 348113202637959690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cf6aa83a8f430754aa6c7fb0ebca223f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":256.0,"y":255.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      FireDestroyAtlas_0: -4796864422394679484
+      FireDestroyAtlas_1: 2284305101680150423
+      FireDestroyAtlas_10: -8396122189058957348
+      FireDestroyAtlas_11: -8256572990307942422
+      FireDestroyAtlas_12: 3924084965722310371
+      FireDestroyAtlas_13: 1429839382016655961
+      FireDestroyAtlas_14: -1042508074478965381
+      FireDestroyAtlas_15: -1824556067409366910
+      FireDestroyAtlas_16: 348113202637959690
+      FireDestroyAtlas_17: -6231817988725311179
+      FireDestroyAtlas_18: 1255394547131404822
+      FireDestroyAtlas_19: 6073895542517362447
+      FireDestroyAtlas_2: -7124070709498767212
+      FireDestroyAtlas_20: -4661212418704542754
+      FireDestroyAtlas_21: 2862106068189225976
+      FireDestroyAtlas_22: 8478632497167242997
+      FireDestroyAtlas_23: -371308358464347261
+      FireDestroyAtlas_24: -6165720333099721893
+      FireDestroyAtlas_25: 5042705323513572673
+      FireDestroyAtlas_26: 6966414379047766233
+      FireDestroyAtlas_27: -4469401592131937145
+      FireDestroyAtlas_28: 6983181423021231083
+      FireDestroyAtlas_29: 494356399196193689
+      FireDestroyAtlas_3: 7222978196139536869
+      FireDestroyAtlas_30: -1258491833516080552
+      FireDestroyAtlas_31: 7147260662936415375
+      FireDestroyAtlas_32: 1937908166
+      FireDestroyAtlas_4: 2803809200018720137
+      FireDestroyAtlas_5: -3227583918757256772
+      FireDestroyAtlas_6: 373757374236331538
+      FireDestroyAtlas_7: 4374391174018536217
+      FireDestroyAtlas_8: 6912791108695380353
+      FireDestroyAtlas_9: -4063207477048418263
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
