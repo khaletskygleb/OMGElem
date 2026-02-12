@@ -7,9 +7,6 @@ namespace ElementGame.Core
     {
         private readonly MonoBehaviour _host;
         private IGameState _currentState;
-        private bool _isBusy;
-
-        public bool IsBusy => _isBusy;
 
         public GameStateMachine(MonoBehaviour host)
         {
@@ -23,12 +20,8 @@ namespace ElementGame.Core
 
         private IEnumerator RunState(IGameState state)
         {
-            _isBusy = true;
             _currentState = state;
-
             yield return state.Enter();
-
-            _isBusy = false;
         }
 
         public IEnumerator RunSubState(IGameState state)

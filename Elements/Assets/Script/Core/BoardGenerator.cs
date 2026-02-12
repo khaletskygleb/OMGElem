@@ -1,6 +1,5 @@
 using ElementGame.Data;
 using ElementGame.Pool;
-using System.Collections.Generic;
 using UnityEngine;
 using Zenject;
 
@@ -46,7 +45,10 @@ namespace ElementGame.Core
         private Board BuildBoard(int width, int height, int[] cellTypeIndexes, LevelConfig config)
         {
             _levelConfig = config;
-            Camera.main.orthographicSize = _levelConfig.Height * _cellSize + 1f;
+
+            Camera.main.orthographicSize =
+                (_levelConfig.Width * _cellSize)  + 2f;
+
             _scaleBackground.ScaleToCamera();
 
             Board board = new Board(width, height);
@@ -56,28 +58,36 @@ namespace ElementGame.Core
                 for (int y = 0; y < height; y++)
                 {
                     int index = y * width + x;
+
+                    if (index < 0 || index >= cellTypeIndexes.Length)
+                        continue;
+
                     int typeIndex = cellTypeIndexes[index];
 
-                    if (typeIndex < 0) continue;
+                    if (typeIndex < 0)
+                        continue;
 
                     Vector2Int pos = new Vector2Int(x, y);
+
                     Element element = new Element(typeIndex, pos);
 
                     board.SpawnElement(pos, element);
-                    SpawnView(element, board, config);
+                    SpawnView(element, board);
                 }
             }
 
             return board;
         }
 
-        private void SpawnView(Element element, Board board, LevelConfig config)
+        private void SpawnView(Element element, Board board)
         {
-            var definition = config.Database.GetByIndex(element.TypeIndex);
+            var definition =
+                _levelConfig.Database.GetByIndex(element.TypeIndex);
 
             ElementView view = _pool.Get(definition.Prefab);
 
-            view.Initialize(element, board, GridToWorld);
+            view.Initialize(element, GridToWorld);
+
             element.View = view;
         }
 

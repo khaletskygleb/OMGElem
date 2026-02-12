@@ -26,8 +26,7 @@ namespace ElementGame.Save
                 }
             }
 
-            string json = JsonUtility.ToJson(data);
-            File.WriteAllText(SavePath, json);
+            Save(data);
         }
 
         public bool HasSave() => File.Exists(SavePath);
@@ -38,6 +37,23 @@ namespace ElementGame.Save
 
             string json = File.ReadAllText(SavePath);
             return JsonUtility.FromJson<SaveData>(json);
+        }
+
+        public void SaveProgressOnly(int levelIndex)
+        {
+            SaveData data = new SaveData
+            {
+                levelIndex = levelIndex,
+                cells = null
+            };
+
+            Save(data);
+        }
+
+        private void Save(SaveData data)
+        {
+            string json = JsonUtility.ToJson(data);
+            File.WriteAllText(SavePath, json);
         }
 
         public void ClearSave()

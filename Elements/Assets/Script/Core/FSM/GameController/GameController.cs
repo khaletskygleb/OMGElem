@@ -1,6 +1,7 @@
 using ElementGame.Data;
 using ElementGame.Save;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Zenject;
 
 namespace ElementGame.Core
@@ -39,7 +40,8 @@ namespace ElementGame.Core
                 BoardGenerator = _boardGenerator,
                 SaveSystem = _saveSystem,
                 DestroySystem = _destroySystem,
-                GravityAnimator = _gravityAnimator
+                GravityAnimator = _gravityAnimator,
+                CurrentLevelIndex = 0
             };
 
             _fsm = new GameStateMachine(this);
@@ -48,13 +50,27 @@ namespace ElementGame.Core
         private void Start()
         {
             LoadLevelFromSaveOrDefault();
-            _fsm.SetState(new IdleState(_context, _fsm));
         }
 
         public void TryPlayerMove(Vector2Int from, Vector2Int to)
         {
-            if (_fsm.IsBusy) return;
-            if (!_context.Board.IsInside(from) || !_context.Board.IsInside(to)) return;
+            if (_context.IsResolving)
+                return;
+
+            if (!_context.Board.IsInside(from) || !_context.Board.IsInside(to))
+                return;
+
+            Element first = _context.Board.GetCell(from).Element;
+            Element second = _context.Board.GetCell(to).Element;
+
+            if (first == null)
+                return;
+
+            if (!first.IsInteractable)
+                return;
+
+            if (second != null && !second.IsInteractable)
+                return;
 
             _fsm.SetState(new PlayerMoveState(_context, _fsm, from, to));
         }
@@ -64,71 +80,111 @@ namespace ElementGame.Core
             if (_saveSystem.HasSave())
             {
                 SaveData save = _saveSystem.LoadGame();
+
                 _context.CurrentLevelIndex = save.levelIndex;
 
-                LevelConfig config = _levelDatabase.GetLevel(_context.CurrentLevelIndex);
-                _context.Board = _boardGenerator.GenerateFromSave(save, config);
+                LevelConfig config =
+                    _levelDatabase.GetLevel(_context.CurrentLevelIndex);
+
+                if (save.cells != null &&
+                    save.cells.Length == save.width * save.height)
+                {
+                    _context.Board =
+                        _boardGenerator.GenerateFromSave(save, config);
+                }
+                else
+                {
+                    _context.Board =
+                        _boardGenerator.GenerateBoard(config);
+                }
             }
             else
             {
-                LevelConfig config = _levelDatabase.GetLevel(_context.CurrentLevelIndex);
-                _context.Board = _boardGenerator.GenerateBoard(config);
+                LevelConfig config =
+                    _levelDatabase.GetLevel(_context.CurrentLevelIndex);
+
+                _context.Board =
+                    _boardGenerator.GenerateBoard(config);
             }
+
+            _fsm.SetState(new IdleState(_context, _fsm));
         }
 
         public void RestartLevel()
         {
-            if (_fsm.IsBusy) return;
             LoadLevel(_context.CurrentLevelIndex);
         }
 
         public void LoadNextLevel()
         {
-            if (_fsm.IsBusy) return;
             LoadLevel(_context.CurrentLevelIndex + 1);
+            _saveSystem.SaveProgressOnly(_context.CurrentLevelIndex);
         }
 
         private void LoadLevel(int levelIndex)
         {
-            ClearBoardViews(); 
+            _context.IsResolving = false;
+
+            ClearCurrentBoard();
 
             _context.CurrentLevelIndex = levelIndex;
 
-            LevelConfig config = _context.LevelDatabase.GetLevel(levelIndex);
-            _context.Board = _context.BoardGenerator.GenerateBoard(config);
+            LevelConfig config =
+                _levelDatabase.GetLevel(levelIndex);
 
-            _context.SaveSystem.SaveGame(levelIndex, _context.Board);
+            _context.Board =
+                _boardGenerator.GenerateBoard(config);
 
+            _fsm = new GameStateMachine(this); 
             _fsm.SetState(new IdleState(_context, _fsm));
         }
 
-        private void ClearBoardViews()
+
+        private void ClearCurrentBoard()
         {
-            if (_context.Board == null) return;
+            if (_context.Board == null)
+                return;
 
             for (int x = 0; x < _context.Board.Width; x++)
             {
                 for (int y = 0; y < _context.Board.Height; y++)
                 {
                     var cell = _context.Board.GetCell(new Vector2Int(x, y));
-                    if (cell.Element?.View != null)
+                    if (cell.IsEmpty) continue;
+
+                    var element = cell.Element;
+
+                    if (element.View != null)
                     {
-                        _context.DestroySystem.ReturnImmediate(cell.Element.View);
-                        cell.Element.View = null;
+                        _destroySystem.ReturnImmediate(element.View);
+                        element.View = null;
                     }
                 }
             }
+
+            _context.Board = null;
         }
 
         private void OnApplicationQuit()
         {
-            _saveSystem.SaveGame(_context.CurrentLevelIndex, _context.Board);
+            SaveStable();
         }
 
         private void OnApplicationPause(bool pause)
         {
             if (pause)
-                _saveSystem.SaveGame(_context.CurrentLevelIndex, _context.Board);
+                SaveStable();
+        }
+
+        private void SaveStable()
+        {
+            if (_context.Board == null)
+                return;
+
+            _saveSystem.SaveGame(
+                _context.CurrentLevelIndex,
+                _context.Board
+            );
         }
     }
 }

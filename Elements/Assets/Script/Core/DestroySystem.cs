@@ -25,14 +25,15 @@ namespace ElementGame.Core
 
                 ElementView view = element.View;
 
-                element.View = null;
-                board.ClearCell(cell.Position);
-
                 remaining++;
 
                 view.PlayDestroy(() =>
                 {
+                    board.ClearCell(cell.Position);
+
+                    element.View = null;
                     _pool.Return(view);
+
                     remaining--;
                 });
             }
@@ -40,6 +41,7 @@ namespace ElementGame.Core
             while (remaining > 0)
                 yield return null;
         }
+
 
 
         public void ReturnImmediate(APoolableObject poolableObject)

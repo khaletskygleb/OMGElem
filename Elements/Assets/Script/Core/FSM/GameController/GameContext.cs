@@ -13,5 +13,6 @@ namespace ElementGame.Core
         public SaveSystem SaveSystem;
         public DestroySystem DestroySystem;
         public GravityAnimator GravityAnimator;
+        public bool IsResolving;
     }
 }

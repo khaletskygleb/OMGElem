@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9d0a296e94fdb1d44a0770a5fb3a60db, type: 3}
-  m_Name: LevelTest2
+  m_Name: Level_2
   m_EditorClassIdentifier: Assembly-CSharp::LevelConfig
   _pieceDatabase: {fileID: 11400000, guid: 5bd591648efe9d2439b14fb2585d522e, type: 2}
   _width: 6
   _height: 6
-  _cells: 010000000100000000000000000000000100000001000000ffffffff0100000001000000000000000000000001000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  _cells: ffffffff01000000000000000100000001000000ffffffffffffffff01000000000000000100000001000000ffffffffffffffff00000000010000000000000000000000ffffffffffffffff01000000000000000100000001000000ffffffffffffffff0100000001000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff

@@ -16,15 +16,12 @@ namespace ElementGame.Core
 
         public IEnumerator Enter()
         {
-            yield return new WaitForSeconds(0.5f);
-
             _context.CurrentLevelIndex++;
-
             var config = _context.LevelDatabase.GetLevel(_context.CurrentLevelIndex);
             _context.Board = _context.BoardGenerator.GenerateBoard(config);
-
             _context.SaveSystem.SaveGame(_context.CurrentLevelIndex, _context.Board);
 
+            yield return new WaitForSeconds(0.5f);
             _fsm.SetState(new IdleState(_context, _fsm));
         }
     }

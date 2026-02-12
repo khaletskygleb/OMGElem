@@ -16,6 +16,12 @@ namespace ElementGame.Core
 
         public IEnumerator Enter()
         {
+            foreach (var cell in _cells)
+            {
+                if (!cell.IsEmpty)
+                    cell.Element.State = ElementState.Destroying;
+            }
+
             yield return _context.DestroySystem.RemoveWithAnimation(_context.Board, _cells);
         }
     }
