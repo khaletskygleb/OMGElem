@@ -8,11 +8,13 @@ using Zenject;
 public class GameInstaller : MonoInstaller
 {
     [SerializeField] private LevelDatabase _levelDatabase;
+    [SerializeField] private BalloonLibrarySO _balloonLibrary;
     [SerializeField] private BoardGenerator _boardGenerator;
 
     public override void InstallBindings()
     {
-        Container.Bind<LevelDatabase>().FromInstance(_levelDatabase).AsSingle();
+        Container.Bind<LevelDatabase>().FromInstance(_levelDatabase).AsSingle(); 
+        Container.Bind<BalloonLibrarySO>().FromInstance(_balloonLibrary).AsSingle();
 
         Container.Bind<BoardGenerator>().FromInstance(_boardGenerator).AsSingle();
 

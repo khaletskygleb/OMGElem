@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2f1c9d77f12aa84fa033f7c0dcf7c3d, type: 3}
+  m_Name: BalloonLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::ElementGame.Data.BalloonLibrarySO
+  _balloonPrefabs:
+  - {fileID: 6492985983629260199, guid: 0fe976eba0fa2de4a92d9382d7b365d8, type: 3}
+  - {fileID: 6492985983629260199, guid: 751cb9548bf73a24bb73c6109f13364c, type: 3}

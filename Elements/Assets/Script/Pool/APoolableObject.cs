@@ -1,25 +1,28 @@
 using UnityEngine;
-using Zenject;
 
 namespace ElementGame.Pool
 {
     public abstract class APoolableObject : MonoBehaviour
     {
-        protected ObjectPoolService Pool;
+        private ObjectPoolService _pool;
 
-        [Inject]
-        public void Construct(ObjectPoolService pool)
+        public void SetPool(ObjectPoolService pool)
         {
-            Pool = pool;
+            _pool = pool;
         }
 
         public void ReturnToPool()
         {
-            Pool.Return(this);
+            if (_pool == null)
+            {
+                Debug.LogError($"{name} has no pool reference!");
+                return;
+            }
+
+            _pool.Return(this);
         }
 
         public virtual void OnGet() { }
         public virtual void OnReturnToPool() { }
     }
 }
-

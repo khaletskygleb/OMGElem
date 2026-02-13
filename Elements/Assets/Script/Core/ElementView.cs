@@ -19,8 +19,9 @@ namespace ElementGame.Core
 
         public override void OnGet()
         {
-            base.OnGet();
             _animator.Rebind();
+            float randomOffset = UnityEngine.Random.value;
+            _animator.Play(0, 0, randomOffset);
             _animator.Update(0f);
         }
 

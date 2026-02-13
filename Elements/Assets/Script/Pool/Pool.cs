@@ -20,7 +20,6 @@ namespace ElementGame.Pool
                 : GameObject.Instantiate(_prefab);
 
             obj.gameObject.SetActive(true);
-
             obj.OnGet();
 
             return obj;
@@ -29,6 +28,7 @@ namespace ElementGame.Pool
         public void Return(APoolableObject obj)
         {
             obj.OnReturnToPool();
+
             Transform t = obj.transform;
             t.localScale = Vector3.one;
             t.localPosition = Vector3.zero;

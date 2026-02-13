@@ -19,6 +19,8 @@ namespace ElementGame.Pool
             }
 
             var obj = (T)pool.Get();
+
+            obj.SetPool(this);          
             _spawned[obj] = pool;
 
             return obj;
@@ -38,12 +40,12 @@ namespace ElementGame.Pool
 
         public void ReturnAll()
         {
-            foreach (var kvp in _spawned)
-            {
-                kvp.Value.Return(kvp.Key);
-            }
+            var activeObjects = new List<APoolableObject>(_spawned.Keys);
 
-            _spawned.Clear();
+            foreach (var obj in activeObjects)
+            {
+                Return(obj);
+            }
         }
     }
 }
